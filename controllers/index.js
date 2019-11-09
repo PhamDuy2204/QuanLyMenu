@@ -219,3 +219,7 @@ LoadMenu();
 function capNhatMenu(){
   console.log('asdas');
 }
+
+function expandMenu(){
+  console.log('sddsf');
+}
