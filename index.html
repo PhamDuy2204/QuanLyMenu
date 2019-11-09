@@ -17,9 +17,10 @@
 <body>
 
   <div class="container">
-    <div class="text-center display-4">Menu</div>
+    <div class="text-center display-4 text-success">Menu Food</div>
     <button class="btn btn-success" data-toggle="modal" data-target="#modelId">Thêm menu</button>
     <div id="content-menu">
+
     </div>
 
     <!-- Modal -->
@@ -54,7 +55,7 @@
                       <input class="form-control maMonAn" placeholder="Mã món" />
                     </div>
                     <div class="col-6 mt-2">
-                      <input class="form-control tenMonAn"  placeholder="Tên món" />
+                      <input class="form-control tenMonAn" placeholder="Tên món" />
                     </div>
                     <div class="col-6 mt-2">
                       <input class="form-control gia" placeholder="Giá món" />
@@ -70,6 +71,7 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+            <button type="button" class="btn btn-success" id="btnSuaMenu">Sửa</button>
             <button type="button" class="btn btn-primary" id="btnThemMenu">Lưu</button>
           </div>
         </div>
