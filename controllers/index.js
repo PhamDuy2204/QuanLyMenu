@@ -213,4 +213,8 @@ function createEventBtnXoa() {
 
 LoadMenu();
 
+function xoaMenu(){
+  console.log("xoa menu");
+}
+
 //callback function là function đóng vai trò là tham số truyền vào 1 function khác
